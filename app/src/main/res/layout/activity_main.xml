@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A0EBC5C5"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/loginbttn"
+        android:layout_width="125dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="56dp"
+        android:background="#FB29E9"
+        android:text="Login"
+        android:textColor="#FACAFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uglyDog" />
+
+    <Button
+        android:id="@+id/registerbttn"
+        android:layout_width="125dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="2dp"
+        android:background="#FB29E9"
+        android:text="Register"
+        android:textColor="#FACAFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginbttn"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="293dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="48dp"
+        android:background="#FB29E9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_c7d3b14fe30301885b77daad4022f6a" />
+
+    <TextView
+        android:id="@+id/uglyDog"
+        android:layout_width="293dp"
+        android:layout_height="111dp"
+        android:fontFamily="cursive"
+        android:text="Ugly Dogs"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FB29E9"
+        android:textSize="75sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
